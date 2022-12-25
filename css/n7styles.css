@@ -132,13 +132,13 @@ body{
     background-position: bottom;
 }
 .ci-2{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/bricks.webp);
-    background-position: 90% 10%;
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos2.webp);
+    background-position: bottom;
+    background-size:cover;
 }
 .ci-3{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/construccion_site.webp);
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos.webp);
     background-size: cover;
-    background-position:0 50%;
 }
 
 /* --------------------------------Navbar-------------------------------------- */
@@ -756,6 +756,27 @@ input::placeholder,textarea::placeholder{
 
     .mapaJS img{
         width:200%;
+    }
+
+}
+    /* --------------------------- Especial para slider inicio ---------------------------- */
+
+@media only screen and (max-width: 425px){
+
+    /* --------------------------- Inicio ---------------------------- */
+    .ci-1{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img2_mobil.webp);
+        /* background-position: bottom; */
+        background-size:cover;
+    }
+    .ci-2{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos2_mobil.webp);
+        /* background-position: 20% 0; */
+        background-size:cover;
+    }
+    .ci-3{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos_mobil.webp);
+        background-size: cover;
     }
 
 }
