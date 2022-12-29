@@ -1,6 +1,7 @@
 /*  
 /////////////////////////////////////
-/////Estilos Creados por Galeano/////
+////////// Estilos Creados //////////
+//////// por Galeano Santiao ////////
 /////////////////////////////////////
 /////////////////////////////////////
 */
@@ -433,6 +434,11 @@ nav.fixed {
 /* .mapaJS img{
     width:100%;
 } */
+.cont-descMJS{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .desc-mapaJS{
     padding:12px 6px;   /*padding para que el efecto glass de los mapas sean del mismo alto*/
 }
@@ -441,6 +447,10 @@ nav.fixed {
     text-align:justify;
 }
 
+.cont-descMJS>.lead{
+    font-size:1.1rem;
+    font-weight:normal;
+}
 /* #paraguay{
     margin-bottom:12px;
 } */
@@ -671,6 +681,11 @@ input::placeholder,textarea::placeholder{
         width:200%;
     }
 
+    .cont-descMJS>.lead{
+        font-size:1rem;
+        line-height: 20px;
+    }
+
 }
 
 
@@ -757,6 +772,13 @@ input::placeholder,textarea::placeholder{
 
     }
 
+   /* ---------------Alcance--------------- */
+
+    .cont-descMJS>.lead{
+        font-size:1rem;
+        line-height: 20px;
+    }
+
    /* ---------------Footer--------------- */
 
    #footer{
@@ -839,6 +861,10 @@ input::placeholder,textarea::placeholder{
 
     .mapaJS img{
         width:200%;
+    }
+
+    .cont-descMJS>.lead{
+        line-height: 20px;
     }
 
 }
