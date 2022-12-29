@@ -16,7 +16,7 @@ let infoModales = [
         <div class="row">
             <div class="col-6">
                 <p>WhatsApp Venta:</p>
-                <p>WhatsApp Personal:</p>
+                <p>WhatsApp Ricardo Ruloff:</p>
             </div>
             <div class="col-6">
            <p><a class="text-warning" href="https://wa.me/5493704569009" target="_blank">+54 (9) 3704 569009</a></p>
@@ -46,8 +46,8 @@ let infoModales = [
         <p>Sabados:</p>
         </div>
         <div class="col-6">
-           <p>9:00hs a 18:30hs</p>
-           <p>9:00hs a 17:00hs</p>
+           <p>7:30hs a 12:00hs - 15:00hs a 19:30hs</p>
+           <p>7:30hs a 12:00hs</p>
         </div>
      </div>`
     }
