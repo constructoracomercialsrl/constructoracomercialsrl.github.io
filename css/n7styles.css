@@ -90,7 +90,14 @@ body{
     text-align: center;
 
 }
-
+.text-carousel img{
+    width:25%;
+}
+/* .titulo-slider{
+    display:flex;
+    text-align:left;
+    
+} */
 .text-carousel h1, .text-carousel h2{
     font-size:calc(1.575rem + 3.9vw);
     font-weight: 700 !important;
@@ -129,16 +136,16 @@ body{
 }
 
 .ci-1{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/trailer.webp);
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/trailer_logo.webp);
     background-position: bottom;
 }
 .ci-2{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos2.webp);
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos2_logo.webp);
     background-position: bottom;
     background-size:cover;
 }
 .ci-3{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos.webp);
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos_logo.webp);
     background-size: cover;
 }
 
@@ -874,16 +881,16 @@ input::placeholder,textarea::placeholder{
 
     /* --------------------------- Inicio ---------------------------- */
     .ci-1{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/trailer_mobil.webp);
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/trailer_mobil_logo.webp);
         background-size:cover;
     }
     .ci-2{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos2_mobil.webp);
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos2_mobil_logo.webp);
         /* background-position: 20% 0; */
         background-size:cover;
     }
     .ci-3{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos_mobil.webp);
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos_mobil_logo.webp);
         background-size: cover;
     }
 
